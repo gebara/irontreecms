@@ -26,11 +26,23 @@
     "release-major-alpha": "release-it major --preRelease=alpha",
     "release-alpha": "release-it --preRelease=alpha"
   },
-  "addons":[
-    "@plonegovbr/volto-code-block"
+  "addons": [
+    "@plonegovbr/volto-code-block",
+    "@eeacms/volto-accordion-block",
+    "@kitconcept/volto-button-block",
+    "@kitconcept/volto-heading-block",
+    "@kitconcept/volto-introduction-block",
+    "@kitconcept/volto-separator-block",
+    "@kitconcept/volto-slider-block"
   ],
   "dependencies": {
-    "@plonegovbr/volto-code-block": "*"
+    "@plonegovbr/volto-code-block": "*",
+    "@eeacms/volto-accordion-block": "*",
+    "@kitconcept/volto-button-block": "*",
+    "@kitconcept/volto-heading-block": "*",
+    "@kitconcept/volto-introduction-block": "*",
+    "@kitconcept/volto-separator-block": "*",
+    "@kitconcept/volto-slider-block": "*"
   },
   "peerDependencies": {
     "react": "18.2.0",
