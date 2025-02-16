@@ -47,7 +47,6 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Enable corepack
-        run: corepack use pnpm@10.0.0
         run: corepack enable
 
       - name: Get pnpm store directory
